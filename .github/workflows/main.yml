@@ -27,8 +27,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - run: npm install
-      - run: npm run bundle
-      - run: npx typedoc -out bundles/docs
+      - run: npm run bundle -- --folder=${{ steps.extract_branch.outputs.branch }}
         continue-on-error: true
 
       - name: Deploy
