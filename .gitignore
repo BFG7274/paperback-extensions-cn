@@ -1,0 +1,16 @@
+node_modules
+dist
+bundles
+
+reference
+
+.prettierrc
+.nyc_output
+coverage
+docs
+
+.idea
+
+.vscode
+
+.DS_Store
