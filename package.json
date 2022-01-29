@@ -1,6 +1,7 @@
 {
   "name": "paperback-extensions-cn",
   "version": "1.0.0",
+  "repositoryName": "BFG7274's Extensions",
   "description": "Additional Chinese sources for Paperback",
   "scripts": {
     "start": "tsc && node dist/api.js",
